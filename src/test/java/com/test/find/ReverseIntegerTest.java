@@ -26,7 +26,7 @@ class ReverseIntegerTest {
   @Test
   @DisplayName("find reverse integer of -356")
   void test2(){
-    int data = 356;
+    int data = -356;
     assertEquals(-653, reverseInteger.reverseInteger(data), "Reverse of -356 should be -653");
   }
 
